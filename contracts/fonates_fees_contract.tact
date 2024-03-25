@@ -22,8 +22,8 @@ contract FonatesFeesContract with Deployable {
     }
 }
 
-
 //sernder addr = 0QA1-5mTt6d6WhfGAY8grgohQk7TWXrKO3SHyze1z1I-kdY7
 //reciver addr = 0QCcmnblmTDfLFlCvlcFbhkELH2MoLJ4m3j7iIyCLrhm1xhS
-
 //tonhub testnet wallet = kQD2Dp05JEkWgJMo0C9GmoySFF5Vk3RAD-2U7ymkB_kUS9Js
+
+//mainnet contrcat = EQCUed4SHlw2Cr2SWywVvmOytRGCfHZXw5ORtz1njNuEUNhf
