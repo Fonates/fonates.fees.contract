@@ -12,27 +12,8 @@ export async function run(provider: NetworkProvider) {
         },
         {
             $$type: 'Donate',
-            value: toNano('0.05'),
-            text: 'Hello, world!', //ton.fonates|TheBrainDit|Donate to Fonates
-            to: Address.parse('kQD2Dp05JEkWgJMo0C9GmoySFF5Vk3RAD-2U7ymkB_kUS9Js')
+            comment: 'Hello, world!', 
+            to: Address.parse('UQDHaHTzhwyzJR2RLK1pP6ZE59e8f1EDDXp12nibTLBd5R4_')
         }
     );
-
-    await provider.waitForDeploy(fonatesFeesContract.address);
-
-    // run methods on `fonatesFeesContract`
-
-    // await sleep(2000);
-    // await fonatesFeesContract.send(
-    //     provider.sender(),
-    //     {
-    //         value: toNano('0.05'),
-    //     },
-    //     {
-    //         $$type: 'Donate',
-    //         value: toNano('0.05'),
-    //         text: 'Donate to Fonates',
-    //         to: Address.parse('kQD2Dp05JEkWgJMo0C9GmoySFF5Vk3RAD-2U7ymkB_kUS9Js')
-    //     }
-    // )
 }
